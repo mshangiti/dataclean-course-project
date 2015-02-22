@@ -11,11 +11,11 @@ It can be any of the following:
 * LAYING.
 
 ### Subject (int - 2 digits)
-Represents the identifier for the subject. 
+Represents the identifier for the person/subject doing the experiment. 
 It can be any value from 1-30.
 
 ### Measurements (decimal - varies)
-The following variables are the average value of either the mean or the standard deviation for subject X while doing the  activity Y. They are in numbers are don't have specific  units.
+The following variables are the average value of either the mean or the standard deviation for subject X while doing activity Y. They don't have any specific  units.
   
 *  tBodyAcc-mean()-X   
 *  tBodyAcc-mean()-Y   
