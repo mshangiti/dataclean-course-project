@@ -9,7 +9,7 @@ The idea is that the dataset provided (link can be found below), is not in the f
 The following analysis is done when you run the provided script:
 * In step1, the training and testing dataset are read and loaded to R.
 * In step2, the training and testing dataset are merged togther into one dataset along with the subject and activity data.
-* In step3, the column names are changed into a more friendly names (from V1,V2,etc to activity, subject, BodyAcc-mean()-X).
+* In step3, the column names are changed into a more friendly names (from V1,V2,etc to activity, subject, BodyAcc-mean()-X). Also, the activity names are changed to something more friendly (from 1,2,3 to walking, sitting, etc).
 * in step4, we extract only the measurements on the mean and standard deviation for each measurement.
 * in step5, we create an independent tidy dataset with the average of each variable for each activity and each subject, and returning back the result.
 
